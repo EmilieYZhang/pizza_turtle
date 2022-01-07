@@ -182,5 +182,6 @@ def my_artwork():
     pizza_pepper(picasso, 0, -55, 5, 110, "forest green")
     chef_signature(picasso, 380, -250, 5)
     picasso.hideturtle()
-    
-artwork()
+
+if __name__ == '__main__':
+    artwork()
